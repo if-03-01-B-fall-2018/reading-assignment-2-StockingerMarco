@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta encoding="utf-8" />
+    <title>Cheat-Sheet</title>
+
+    <style>
+    center{
+      background-color: black;
+    }
+    p{
+      color: #58FAD0;
+    }
+
+    body{
+      line-break: auto;
+      background-color: gray;
+      color: #64FF00;
+      margin:auto;
+        }
+        div
+        {
+          text-decoration: underline overline;
+        }
+    </style>
+</head>
+
+<body>
+    <font size = "100" color="#5882FA"  face="Impact" ><center>Cheatsheet</font></center>
+
+        <br><b>WWW</b> - <b>W</b>orld <b>W</b>ide <b>W</b>eb
+        <br><b>Main Developer:</b> Tim Berners Lee
+        <br><b>First IP-Connection:</b> 1988 between Europe and North America
+
+        <br><p>In 1990 the Hypertextproject WorldWideWeb which was a web of hypertext-documents was released
+        <br>In 1993 the www was free to anyone and the Mosaic-webbrowser was released</p>
+
+        <b>The internet and the World Wide Web aren't the same thing!</b>
+
+        <br><i>The URL (uniform resource locator) and URI(uniform resource identifier) are a system for (globally unique) identifiers for resources on the Web</i>
+
+        <br><p><i>HTML is the short version of <b>H</b>yper<b>t</b>ext <b>M</b>arkup <b>L</b>anguage
+        <br>HTTP is the short version of <b>H</b>yper<b>t</b>ext <b>T</b>ransfer <b>P</b>rotocol</i></p>
+
+        The URL is often confused with the URI(Uniform Resource Identifier) even thoug it's just a specific form of an URI.
+
+        <article>
+        <br><p><i>The syntax can be very simple or a little bit complicated, it completely depends on the specifix URL. For example it could be scheme:path which is the simplest form.
+        <br>After the scheme: you can add //host and after path "?[query]"so it would be scheme://host path?query.
+        <br>After the // we can add userinfo@ and after the host you can add :port so it finally would be scheme://userinfo@host:portpath?query
+        <br>Some possibles schemes are http, https and ftp.</p></i></article>
+
+        <b>Web Server</b>
+
+        <p>A webserver should store, process and deliver webpages to clients. The communication between the server and the client takes place using http. Mostly delivered are HTML-Documents.
+        <br>A web browser or a web crawler starts to communicate by making a request for a specific resource using HTTP or HTTPS. The server responds with the resource.
+        <br>Also content can be received from clients. This is used for web forms.</p>
+
+        <b>Web Client</b>
+        <p>Also known as Web Browser, a web client is an application for accessing information on the world wide web. It fetches information resources and displays them to an end device like a computer.
+        <br>The process is the following: The user inputs a URL, the rendering engine of the browser renders it and then displays it.</p>
+
+        <br><b>About Doctyp</b>
+        <p><br>The !DOCTYPE on the head of a html document exists to show the browser the version of html that is used.</p>
+
+        <p><br>About the body element:
+        <br>The body element contains all of the contents such as text, images and other things.</p>
+
+        <br>About the head element:
+        <p><br>The head element contains all of the metadata.</p>
+
+        <br>About the html element:
+        <p><br>The html element shows the browser that the following document is a html document. It also is the root for all of the other tags and elements of the html document.</p>
+
+        <br>About the b element:
+        <br><p>The b elment is used to show important text.</p>
+
+        <br>About the title element:
+        <br><p>The title element is required in a html document and it shows the name of the document in the chrome for example.</p>
+
+        <br><b>Void element:</b>
+        <p>A void element is an element whose content model never allows it to have contents.
+        <br>As an example, "br" is a void element</p>
+
+        <br><b>HTML Attributes:</b>
+        <p>Attributes provide additional information about HTML elements.
+        <br>As an example "style" specifies an inline CSS style for an element</p>
+
+        <br><b>Correct "!DOCTYPE" in HTML5</b>
+        <p><br>The correct "!DOCTYPE" in html is "!DOCTYPE html".</p>
+
+        <br><b>Article:</b>
+        <p>An article element is used for independent, self-contained content.</p>
+
+        <br><b>Line break(br):</b>
+        <p>The br tag inserts a line break.</p>
+
+        <br><b>Headings(h1-h6):</b>
+        <p>The Headings are used to define headings(obviously).</p>
+
+        <br><b>Metadata(head):</b>
+        <p>Metadata typically define the document title, character set, styles, scripts, and other meta information..</p>
+
+        <br><b>Images:</b>
+        <p></p>You can make your look better with pictures.The code is < img src= "name_of_picture".jpg" alt="Girl in a jacket" width="500" height="600">
+
+        <br><b>Paragraph(p):</b>
+        <p>You need paragraph to make your page look more ordered.</p>
+
+        <br><b>Section:</b>
+        <p>A section tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.</p>
+
+        <br><b>Links:</b>
+        <p>You can make a link to another page with the code < a href = "link">Name of the link </ a>.</p>
+
+        <br>
+
+        <br><h1>CSS</h1>
+
+        <p><b>CSS rule example:</b>
+        <br>p{
+        <br>color: red;
+        <br>text-align: center;
+        <br>}</p>
+
+        <br><b>Paragraph(p):</b>
+        <p>Descendant Selector: div p	Selects all < p> elements inside < div> elements
+        <br>Child Selector: div > p	Selects all < p> elements where the parent is a < div> element
+        <br>Adjacent Sibling Selector: div + p	Selects all < p> elements that are placed immediately after < div> elements
+
+        <div><br><b>Text decoration:</b></div>
+        <p>You can make your text look better with a.E.
+        <br>h4 {
+        <br>text-decoration: underline overline;
+        <br>} </p>
+
+        <br><b>Text-transform Property:</b>
+        <p>You can make your text look better with a.E.
+        <br>h4 {
+        <br>text-transform: uppercase;
+        <br>}
+        <br>This whould transform the text in h4 to UPPERCASE.</p>
+
+
+
+</body>
+
+</html>
